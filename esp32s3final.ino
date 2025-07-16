@@ -8,10 +8,12 @@
 #include "heartRate.h"
 #include <Adafruit_MLX90614.h>
 #include <WebServer.h>
+#include "secrets.h"
+
 
 // ── Firebase (from your UID sketch) ───────────────────────────────────
-#define API_KEY         "AIzaSyDBv9JjYCuBsEs-Y42lQvEfI3c2W0evuM8"
-#define DATABASE_URL    "https://healthmonitoring-21f90-default-rtdb.europe-west1.firebasedatabase.app/"
+#define API_KEY         "*********"
+#define DATABASE_URL    "*********"
 
 FirebaseData   fbdo;
 FirebaseAuth   auth;

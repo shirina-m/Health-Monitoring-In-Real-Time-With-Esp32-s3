@@ -179,7 +179,6 @@ void loop() {
   //  Read MLX90614 temperature (at 100 kHz) 
   Wire.setClock(100000);
   bodyTemp = mlx.readObjectTempC();
-  bodyTemp += 60.0; 
 
   //  Debug print 
   Serial.print("BPM=");   Serial.print(beatsPerMinute);
